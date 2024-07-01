@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.lista_propiedades {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 30px 30px;
+}
+
+.tarjeta {
+    width: 370px;
+    border: 1px solid silver;
+    height: 100%;
+}
+
+.propiedad_cuerpo {
+    padding: 15px 10px 30px 10px;
+}
+
+.propiedad_titulo {
+    padding: 10px 0;
+}
+
+.propiedad_img {
+    width: 100%;
+    height: 200px;
+}
+
+.propiedad_ubicacion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0px;
+}
